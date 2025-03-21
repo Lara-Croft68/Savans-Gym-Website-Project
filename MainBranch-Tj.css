@@ -1,0 +1,60 @@
+body{
+    font-family: poppins;
+}
+
+.section1{
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    height: 800px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h1 span{
+    color: orangered;
+}
+
+p{
+    font-size: 16px;
+}
+
+.gym-program{
+    display: grid;
+    width: 90%;
+    padding-left: 80px;
+    padding-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.services{
+    display: flex;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    justify-content: left;
+    margin-bottom: 3.5px;
+    line-height: 28px;
+    
+}
+
+.text-box h2, .text-box p {
+margin: 0px 2px 2px 4px ;
+}
+
+.icon {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.text-box {
+text-align: initial;
+padding-left: 30px;
+
+
+}
