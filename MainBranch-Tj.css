@@ -251,4 +251,72 @@ td {
     margin: 20px;
     padding: 50px;
 }
-h4{color: orangered;}
+.experts h4{color: orangered;
+    margin-right: 20px;}
+
+.section6{
+    display: flex;
+}
+
+.map{
+    float: left;
+    border-right: 3px solid white;
+    width: 49%;
+    height: 85%;
+    
+}
+
+.map iframe{
+    height: 600px;
+}
+
+.form-container{
+    margin-left: 40px;
+    width: 49%;
+    height: 700px;
+    float: right;
+    background-image: url(contact-bg.jpg);
+    position: relative;
+    border-left: 3px solid white;
+
+}
+.form{
+    width: 85%;
+    height: 80%;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-left: 50px;
+}
+#forms{
+    margin: 10%;
+    margin-bottom: 5%;
+    width: 97%;
+}
+.message{
+    width: 81.75%;
+}
+.send{
+    margin-left: 10%;
+    border: none;
+}
+input{
+    margin-bottom: 30px;
+    width: 40%;
+    height: 35px;
+    border: 1px solid black;
+}
+input[name=Subject]{
+    width: 82%;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    margin: 40px;
+}
