@@ -169,7 +169,7 @@ padding-left: 30px;
 
 .first-training-content p{
      width:140.8%; 
-    background-color: red;
+    text-align: left;
 }
 
 .first-training-content a{
@@ -244,6 +244,11 @@ td {
     display: flex;
 }
 
+.trainer-text{
+    width: 300px;
+    text-align: left;
+}
+
 .experts{
     width: 290px;
     height: 450px;
@@ -252,7 +257,19 @@ td {
     padding: 50px;
 }
 .experts h4{color: orangered;
-    margin-right: 20px;}
+    margin-right: 20px;
+    text-align: left;
+
+}
+
+.experts h3{
+    text-align: left;
+}
+
+.social{
+    word-spacing: 20px;
+    text-align: left;
+}
 
 .section6{
     display: flex;
@@ -281,6 +298,8 @@ td {
 
 }
 .form{
+    padding-top: 40px;
+    margin-top: 80px;
     width: 85%;
     height: 80%;
     background-color: white;
@@ -288,17 +307,24 @@ td {
     margin-left: 50px;
 }
 #forms{
-    margin: 10%;
+    margin: 20px;
     margin-bottom: 5%;
+    padding-right: 240px;
     width: 97%;
+}
+
+.form a{
+     color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 63px;
+    float: left;
 }
 .message{
     width: 81.75%;
 }
-.send{
-    margin-left: 10%;
-    border: none;
-}
+
 input{
     margin-bottom: 30px;
     width: 40%;
