@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="./font-6/css/all.css">
 </head>
 <body>
+    <header class="head-container">
+        <!-- training studio logo -->
+        <div class="logo">
+            <a href="">Training <em>Studio</em></a>
+        </div>
+        <!-- Navigation bar -->
+        <div class="navigation">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#section3">Classes</a></li>
+                <li><a href="#section4">Schedules</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Sign Up</a></li>
+    
+            </ul>
+        </div>
+    </header>
+    <!-- First Section with video background -->
+    <div class="first-section">
+        <video autoplay="" muted="" loop="" id="bg-video">
+            <source src="gym-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+            <div class="caption">
+                <h3>WORK HARDER, GET STRONGER</h3>
+                <h1>EASY WITH OUR <em>GYM</em></h1>
+                <div><button>BECOME A MEMBER</button></div>
+    
+            </div>
+    
+        </div>
+    </div>
     <div class="section1">
         <div class="program">
          <h1>Choose <span>Program</span></h1>
@@ -93,8 +126,22 @@
             <a href="">BECOME A MEMBER</a>
         </div>
     </div>
+    <div class="signup-form">
+        <h2>ENTER YOUR PERSONAL INFORMATION</h2>
+        <form action="/submit-signup" id="forms" method="post">
+            <input type="text" placeholder="Full Name" name="name" required>
+            <input type="text" id="" placeholder="Email Address" name="" required>
+            <input type="text" id="" placeholder="Phone Number" name="" required>
+            <input type="text" id="" placeholder="Address" name="" required>
+            <input type="text" id="" placeholder="City" name="" required>
+            <input type="text" id="" placeholder="State" name="" required>
+            <input type="text" id="" placeholder="weight or height" name="" required>
+            <input type="text" id="" placeholder="Gender" name="Gender" required>
+        </form>
+        <a href="">Submit</a>
+    </div>
 
-    <div class="section3">
+    <div id="section3">
         <div class="our-classes">
             <h1>OUR <span> CLASSES </span></h1>
             <img src="line-dec.png" alt="">
@@ -135,7 +182,7 @@
                     <p>Fourth Training Class</p>
                     </div>
                 </div>
-         <a href="" class="btn">View All Schedules</a>
+         <a href="#section4" class="btn">View All Schedules</a>
         </div>
         </div>
 
@@ -173,7 +220,7 @@
         </div>
     </div>
 
-    <div class="section4">
+    <div id="section4">
         <div class="class-schedules">
             <h1>CLASSES  <span>SCHEDULES</span> </h1>
             <img src="line-dec.png" alt="">
@@ -232,10 +279,10 @@
                <div class ="trainer-text"><p>Delivers high-energy trainings using the latest techniques in exercise science, cardio programs and strength
                 training    </div> 
                 <div class="social">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-behance"></i>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-behance"></i></a>        
                 </div>
             </div>
             <div class="experts">
@@ -245,10 +292,10 @@
                  <div class ="trainer-text"><p>Ensures effective workouts, identifying different muscle groups and explaining appropriate methods to strengthen
                     specific muscles.</p></div> 
                 <div class="social">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-linkedin-in"></i>
-                  <i class="fa-brands fa-behance"></i>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-behance"></i></a>
                 </div>
             </div>
             <div class="experts">
@@ -258,10 +305,10 @@
                 <div class ="trainer-text"><p>Leads kinesthetic group exercise classes, design classes to match the skill and learning level of all participants.
                 </p></div> 
                 <div class="social">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-behance"></i>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-behance"></i></a>
                 </div>
             </div>
         </div>
