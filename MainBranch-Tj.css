@@ -1,7 +1,99 @@
 body{
     font-family: poppins;
+    overflow-x: hidden ;
 }
 
+.head-container{
+position: relative;
+font-family: poppins;
+text-transform: uppercase;
+color: white;
+font-weight:bolder;
+background-color: rgba(250, 250, 250, 0.1);
+z-index: +1;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.logo a{
+    font-size: 30px;
+    color: white;
+    text-decoration:none;
+}
+.navigation{
+    /* float: right; */
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+em{
+    color: orangered;
+    font-style: normal;
+    font-weight: 900;
+}
+.first-section{
+    position: relative;
+    color: white;
+}
+.video-overlay{
+    position: absolute;
+    background-color: rgba(35, 45, 57, 0.8);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#bg-video{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover
+}
+
+
+.nav-bar ul{
+    background-color: blue;
+    float: right;
+    height: auto;
+width: auto;
+text-align: center;
+vertical-align: middle;
+}
+.navbar li{
+float: left;
+display: block;
+padding: 10px;
+padding-bottom: 30px;
+margin-left: 10px;
+text-decoration: none;
+text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: orangered;
+    
+}
+/* video over lay caption of the first section */
+.caption{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+}
+.caption h1{
+    font-size: 70px;
+}
 .section1{
     text-align: center;
     position: relative;
@@ -89,7 +181,7 @@ padding-left: 30px;
     text-decoration: none;
 }
 
-.section3{
+#section3{
     text-align: center;
     width: 100%;
 }
@@ -134,12 +226,31 @@ padding-left: 30px;
     padding-left: 20px;
 
 }
+#forms a{
+     color: white;
+    background-color: orangered;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    /* margin-left: 63px; */
+    /* float: left; */
+}
 
+.signup-form a{
+     color: white;
+    background-color: orangered;
+    text-decoration: none;
+    /* justify-content: center; */
+    /* padding-top: 20px; */
+    /* margin-left: 63px; */
+    /* float: left; */
+
+}
 
  .btn{
     background-color: orangered;
     align-items: center;
-    padding: 28px 46px;
+    padding: 28px 26px;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -157,7 +268,7 @@ padding-left: 30px;
 }
 
 .first-training-content h2{
-    padding-right: 350px;
+    padding-right: 290px;
 }
 
 .first-training-content img{
