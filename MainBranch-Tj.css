@@ -226,24 +226,41 @@ padding-left: 30px;
     padding-left: 20px;
 
 }
+
 #forms a{
      color: white;
     background-color: orangered;
     text-decoration: none;
     justify-content: center;
     padding-top: 20px;
-    /* margin-left: 63px; */
-    /* float: left; */
+}
+
+.signup-form{
+    background-color: #FAF9F6;
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 50%; height: 50%;
+    background-color: white;
+    z-index: 1000;
+    padding: 40px;
+    overflow: auto;
+}
+
+
+#signup-form h2{
+    padding-top: 30px;
+}
+
+.signup-form button{
+    margin-bottom: 100px;
+    padding:20px 100px;
 }
 
 .signup-form a{
      color: white;
     background-color: orangered;
     text-decoration: none;
-    /* justify-content: center; */
-    /* padding-top: 20px; */
-    /* margin-left: 63px; */
-    /* float: left; */
 
 }
 
